@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenith Esport — Équipe officielle Brawl Stars</title>
+  <meta name="description" content="Site officiel de Zenith Esport, structure e-sport compétitive sur Brawl Stars : joueurs, matchs, pronostics et classement." />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- La navbar est injectée automatiquement par js/components.js -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- ===================== HERO / BANNIÈRE ===================== -->
+  <section class="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-content">
+      <img src="images/logo.png" alt="Logo Zenith Esport" class="hero-logo" />
+      <h1>Zenith Esport</h1>
+      <p class="hero-slogan">Viser plus haut, viser le zénith.</p>
+
+      <div class="hero-socials">
+        <a href="#" target="_blank" class="social-btn">Discord</a>
+        <a href="#" target="_blank" class="social-btn">X</a>
+        <a href="#" target="_blank" class="social-btn">YouTube</a>
+        <a href="#" target="_blank" class="social-btn">TikTok</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRÉSENTATION ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">L'équipe</span>
+        <h2>Qui sommes-nous</h2>
+        <p>
+          Zenith Esport est une structure compétitive dédiée à Brawl Stars, portée par l'exigence,
+          la discipline et l'envie de représenter sa communauté au plus haut niveau.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DERNIERS RÉSULTATS ===================== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Historique</span>
+        <h2>Derniers résultats</h2>
+      </div>
+      <div id="latest-results" class="grid grid-3">
+        <div class="loader"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCHAIN MATCH ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">À venir</span>
+        <h2>Prochain match</h2>
+      </div>
+      <div id="next-match" class="card" style="max-width:640px; margin:0 auto;">
+        <div class="loader"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== JOUEURS PRINCIPAUX ===================== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Le roster</span>
+        <h2>Nos joueurs</h2>
+      </div>
+      <div id="home-players" class="grid grid-4">
+        <div class="loader"></div>
+      </div>
+      <div class="text-center mt-3">
+        <a href="pages/joueurs.html" class="btn btn-outline">Voir tout le roster</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PARTENAIRES ===================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Ils nous soutiennent</span>
+        <h2>Nos partenaires</h2>
+      </div>
+      <div id="partners" class="grid grid-4" style="align-items:center;">
+        <div class="loader"></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script type="module" src="js/components.js"></script>
+  <script type="module" src="js/home.js"></script>
+</body>
+</html>
